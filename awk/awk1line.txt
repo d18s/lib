@@ -1,0 +1,5 @@
+--------------------------------------------------------------------------------
+USEFUL ONE-LINE SCRIPTS FOR AWK
+
+# sample 10% of lines of a file
+shuf FILE | awk 'NR%10==0'
